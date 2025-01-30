@@ -25,7 +25,7 @@ name: Discord.Events.InteractionCreate,
 
 		console.log(`Komut kullandı: ${interaction.user.tag} (${interaction.user.id}) (${interaction.guild.name}) `)
 
-       return cmd.run(client, interaction, db, Rank, AddRank, RemoveRank);
+       return cmd.run(client, interaction, db);
 
       }
 

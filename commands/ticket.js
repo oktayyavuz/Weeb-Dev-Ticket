@@ -49,7 +49,7 @@ module.exports = {
 
         const info = new EmbedBuilder()
             .setColor("Blue")
-            .setTitle("**Rimuru Shop Ticket Sistemi**")
+            .setTitle("**Weeb Dev Ticket Sistemi**")
             .setDescription("Ticket Oluşturarak iletişime geçebilirsiniz.")
             .addFields(
                 { name: "❗️❗️❗️Dikkat", value: `*▪ Ticketlarınızı açarken sebepsiz yere açmayınız.*\n*▪ Herhangi Bir Durumda İletişim:* <@&${ticketYetkiliRol.id}>` }
@@ -116,7 +116,7 @@ client.on('interactionCreate', async interaction => {
 
             const embed = new EmbedBuilder()
                 .setColor("Blue")
-                .setTitle("Rimuru Shop")
+                .setTitle("Weeb Dev ")
                 .setDescription("Merhaba, ekibimiz en kısa süre içerisinde ilgilenecektir.")
                 .addFields(
                     { name: "Önemli!", value: "• Discord talepleri içerisinde herhangi bir şekilde özel bilgilerinizi iletmeyiniz. Örnek olarak Sunucu ip adresiniz, kullanıcı adınız, şifreniz vs.\n• Yetkililere kesinlikle etiket atmak YASAKTIR.\n• Kesinlikle DM üzerinden destek BULUNMAMAKTADIR." }
